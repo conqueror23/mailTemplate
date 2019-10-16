@@ -1,0 +1,174 @@
+html {
+  background: #7f8287;
+}
+body {
+  margin: 0 !important;
+  width: 80%;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10%;
+}
+p {
+  text-align: justify;
+}
+.rectangle {
+  background-color: #ffffff;
+}
+
+.top-bar {
+  width: 100%;
+  height: 8px;
+  background: #2572cb;
+}
+
+.section-a,
+.section-b,
+.section-c,
+.section-d {
+  align-items: center;
+}
+
+.section-a {
+  height: 70em;
+  padding: 2em 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.section-a a {
+  color: #ffffff;
+  font-family: "Avenir Next";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 33px;
+  text-align: justify;
+  text-decoration: none;
+}
+
+.logo-section img {
+  width: 15em;
+}
+.intro-section img {
+  height: 40em;
+  width: 35em;
+}
+
+.section-a p {
+  width: 520px;
+  color: #333333;
+  font-family: "Avenir Next";
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.greeting {
+  align-content: center;
+}
+.greeting-btn {
+  height: 58px;
+  width: 320px;
+  background-color: #2572cb;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.section-b {
+  background: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5% 10%;
+}
+
+.section-b h1 {
+  height: 33px;
+  width: 167px;
+  color: #3a3a3a;
+  font-family: "Avenir Next";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 33px;
+}
+
+.options-wrapper {
+  margin-top: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex: 1;
+}
+.card-img-back {
+  height: 11em;
+  width: 15em;
+  border-radius: 4px;
+  background-color: #e6e6e6;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 160px;
+}
+.card-img-back img {
+  vertical-align: middle;
+}
+
+.options-card {
+  align-items: center;
+}
+
+.options-card h3 {
+  height: 25px;
+  width: 15em;
+  color: #3a3a3a;
+  font-family: "Avenir Next";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+}
+.options-card p {
+  height: 73px;
+  width: 254px;
+  color: #909090;
+  font-family: "Avenir Next";
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.section-c {
+  padding: 2em 4em;
+}
+
+.section-c h1 {
+  color: #2572cb;
+  font-family: "Avenir Next";
+  font-size: 2em;
+  font-weight: 500;
+  line-height: 38px;
+}
+
+.section-c p {
+  width: 80%;
+  color: #333333;
+  font-family: "Avenir Next";
+  font-size: 1.2em;
+  line-height: 1.3em;
+}
+
+.section-c .trait{
+  margin-top:4em;
+}
+
+.section-d {
+  padding: 3em 4em;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-d p{
+    width: 80%;
+    color: #9B9B9B;
+    font-family: "Avenir Next";
+    font-size: 16px;
+    line-height: 22px;
+}
